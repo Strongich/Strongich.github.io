@@ -37,7 +37,7 @@
         {% if author.email contains "@" %}
           <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
         {% else %}
-          <li><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ author.email }}</li>
+          <li class="author__contact--plain"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i><span>{{ author.email }}</span></li>
         {% endif %}
       {% endif %}
 

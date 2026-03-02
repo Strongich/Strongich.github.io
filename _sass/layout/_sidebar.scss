@@ -307,6 +307,20 @@
     white-space: nowrap;
   }
 
+  .author__contact--plain {
+    display: flex;
+    align-items: flex-start;
+    white-space: normal;
+  }
+
+  .author__contact--plain .icon-pad-right {
+    flex: 0 0 auto;
+  }
+
+  .author__contact--plain span {
+    overflow-wrap: anywhere;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
