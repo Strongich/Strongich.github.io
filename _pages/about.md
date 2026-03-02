@@ -17,7 +17,7 @@ Previously, I worked as a Machine Learning Engineer for one year focused on serv
 
 Research
 ======
-My research interests sit at the intersection of multimodal AI and efficient reasoning. I’m especially interested in vision-language models, their extension toward vision-language-action systems, and the role of vision foundation models in building robust, grounded capabilities. I’m also interested in the use of small language models for agentic tasks.
+My research interests lie at the intersection of multimodal AI and efficient reasoning. I’m especially interested in vision-language models and in building robust, grounded capabilities around them. I’m also broadly interested in small language models, their practical applications, and how to push them to outperform LLMs on specific tasks. I’m additionally interested in hybrid architectures, particularly Mamba-Transformer combinations.
 
 Education
 ======
