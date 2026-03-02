@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "About Me"
+title: "Ihor Vitenko"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<p class="about__email">igor [dot] vitenko13 [at] gmail [dot] com</p>
 
 I'm a Research Engineer at [Reface](https://reface.ai/), where I work on [BitePal](https://bitepal.app/) — an AI calorie tracker app. I build core features end to end, focusing on multimodal alignment, synthetic data generation, and optimal technical solutions to support business requests.
 

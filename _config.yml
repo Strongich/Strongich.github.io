@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ihor Vitenko"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Ihor Vitenko"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Ihor Vitenko"
   pronouns         : # example: "she/her"  
-  bio              : "Machine Learning Research Engineer"
+  bio              : "ML Research Engineer"
   location         : "Pardubice, Czech Republic"
   employer         : "Reface"
   uri              : # URL
