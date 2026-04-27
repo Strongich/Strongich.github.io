@@ -11,9 +11,7 @@ redirect_from:
 
 I'm a Research Engineer at [Reface](https://reface.ai/), where I work on [BitePal](https://bitepal.app/) — an AI calorie tracker app. I build core features end to end, focusing on multimodal alignment, synthetic data generation, and optimal technical solutions to support business requests.
 
-I'm also a Research Fellow (RAI for Ukraine program) at the [Center for Responsible AI](https://engineering.nyu.edu/research/centers/center-responsible-ai) at [New York University](https://www.nyu.edu/), working on RL policy reusability under the supervision of [Sihem Amer-Yahia](https://scholar.google.com/citations?user=rMtUkMcAAAAJ&hl=en) and [Noha Ibrahim](https://scholar.google.com/citations?user=bmAiTSEAAAAJ&hl=en).
-
-Previously, I worked as a Machine Learning Engineer for one year focused on service solutions for new client engagements. Highlights include multi-agent applications with an RLHF loop, tool usage, RAG, Tree-of-Thoughts (ToT) prompting, image generation, and improvements to a multi-speaker diarization system.
+Previously, I was a Research Fellow (RAI for Ukraine program) at the [Center for Responsible AI](https://engineering.nyu.edu/research/centers/center-responsible-ai) at [New York University](https://www.nyu.edu/), working on RL policy reusability under the supervision of [Sihem Amer-Yahia](https://scholar.google.com/citations?user=rMtUkMcAAAAJ&hl=en) and [Noha Ibrahim](https://scholar.google.com/citations?user=bmAiTSEAAAAJ&hl=en). I also worked as a Machine Learning Engineer for one year focused on service solutions for new client engagements. Highlights include multi-agent applications with an RLAF loop, tool usage, RAG, Tree-of-Thoughts (ToT) prompting, image generation, and improvements to a multi-speaker diarization system.
 
 Research
 ======
