@@ -2,7 +2,7 @@
 title: "When Can Pre-Trained Policies Be Reused? Inference-Time Policy Composition from Fixed Policy Libraries"
 header:
   link: "https://arxiv.org/abs/2604.20174"
-excerpt: "Accepted to the CIKM 2026 Short Paper Track. RAI for Ukraine research project on offline reinforcement learning policy reuse. Extended version available on arXiv; code released on GitHub.<br/><img src='/images/portfolio/CIMK26_solo_scritta.png' alt='CIKM 2026 logo.'>"
+excerpt: "My project as part of the RAI for Ukraine program got accepted to the CIKM 2026 Short Paper Track — inference-time policy reuse in offline reinforcement learning. Extended version available on arXiv; code released on GitHub.<br/><img src='/images/portfolio/CIMK26_solo_scritta.png' alt='CIKM 2026 logo.'>"
 collection: portfolio
 ---
 
