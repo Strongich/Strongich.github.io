@@ -11,11 +11,13 @@ redirect_from:
 
 I'm a Research Engineer at [Reface](https://reface.ai/), where I work on [BitePal](https://bitepal.app/) — an AI calorie tracker app. I build core features end to end, focusing on multimodal alignment, synthetic data generation, and optimal technical solutions to support business requests.
 
-Previously, I was a Research Fellow (RAI for Ukraine program) at the [Center for Responsible AI](https://engineering.nyu.edu/research/centers/center-responsible-ai) at [New York University](https://www.nyu.edu/), working on RL policy reusability under the supervision of [Sihem Amer-Yahia](https://scholar.google.com/citations?user=rMtUkMcAAAAJ&hl=en) and [Noha Ibrahim](https://scholar.google.com/citations?user=bmAiTSEAAAAJ&hl=en). I also worked as a Machine Learning Engineer for one year focused on service solutions for new client engagements. Highlights include multi-agent applications with an RLAF loop, tool usage, RAG, Tree-of-Thoughts (ToT) prompting, image generation, and improvements to a multi-speaker diarization system.
+Previously, I was a Research Fellow (RAI for Ukraine program) at the [Center for Responsible AI](https://engineering.nyu.edu/research/centers/center-responsible-ai) at [New York University](https://www.nyu.edu/), working on RL policy reusability under the supervision of [Sihem Amer-Yahia](https://scholar.google.com/citations?user=rMtUkMcAAAAJ&hl=en) and [Noha Ibrahim](https://scholar.google.com/citations?user=bmAiTSEAAAAJ&hl=en). Our paper from that work was accepted to the CIKM 2026 Short Paper Track. I also worked as a Machine Learning Engineer for one year focused on service solutions for new client engagements. Highlights include multi-agent applications with an RLAF loop, tool usage, RAG, Tree-of-Thoughts (ToT) prompting, image generation, and improvements to a multi-speaker diarization system.
 
 Research
 ======
-My research interests lie at the intersection of multimodal AI and post-training. I'm especially interested in vision-language models and building robust, grounded capabilities around them. I also love exploring post-training recipes (from synthetic data generation to training loops) that push language models, especially small ones, to achieve astonishing results on specific tasks. I'm additionally interested in hybrid transformer architectures, particularly Mamba-Transformer combinations.
+My research interests lie at the intersection of multimodal AI and post-training. I'm especially interested in vision-language models and building robust, grounded capabilities around them. I also love exploring post-training recipes (from synthetic data generation to training loops) that push language models, especially small ones, to achieve strong performance on specific tasks despite their limited scale. I'm additionally interested in hybrid transformer architectures, particularly Mamba-Transformer combinations.
+
+Recently, I've been building this out in the open — extending Hugging Face TRL's [GOLD trainer](https://huggingface.co/docs/trl/gold_trainer) (cross-tokenizer on-and-off-policy distillation) with vision-language model and tool-calling support (see [OSS Contributions](/oss-contributions/)).
 
 Education
 ======
@@ -63,7 +65,7 @@ Education
 
 Honors, Awards
 ======
-- Awarded 3rd Place in the First Round of the All-Ukrainian Student Research Competition in Fields of Knowledge and Specialties for the 2024/2025 academic year for my bachelor’s thesis work (see [certificate](https://www.linkedin.com/in/ihor-vitenko-202458264/overlay/1745861696014/single-media-viewer/?profileId=ACoAAEDZvCIBIDiP7tRMHV76LfIYcZWQYxrxTSQ)).
+- Awarded 3rd Place in the First Round of the All-Ukrainian Student Research Competition in Fields of Knowledge and Specialties for the 2024/2025 academic year for my bachelor’s thesis work (see [certificate](https://www.linkedin.com/in/ihor-vitenko/overlay/1745861696014/single-media-viewer/?profileId=ACoAAEDZvCIBIDiP7tRMHV76LfIYcZWQYxrxTSQ)).
 
 Personal
 ======
