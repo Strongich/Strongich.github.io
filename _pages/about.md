@@ -42,7 +42,7 @@ Education
       <div class="education-title">Hochschule Anhalt</div>
       <div class="education-degree">Dual M.S. in Applied Mathematics and Data Science</div>
       <div class="education-dates">Oct 2025 – Jun 2026</div>
-      <div class="education-grade">Grade: 91/100 (1.7/5)</div>
+      <div class="education-grade">Grade: 92/100 (1.7/5)</div>
       <div class="education-thesis">📄 Thesis: "Methods for Optimizing Reasoning in Small Vision-Language Models Based on Reinforcement Learning"</div>
     </div>
   </div>
