@@ -1,0 +1,54 @@
+---
+layout: archive
+title: "OSS Contributions"
+permalink: /oss-contributions/
+author_profile: true
+---
+
+<style>
+  .oss-legend { opacity: 0.75; font-size: 0.9rem; margin-bottom: 1.5em; }
+  .oss-list { list-style: none; padding-left: 0; margin: 0 0 1.5em; }
+  .oss-list li { margin: 10px 0; padding-left: 1.9em; text-indent: -1.9em; }
+  .oss-section { margin-top: 2em; }
+  .oss-section h2 { margin-bottom: 0.4em; }
+</style>
+
+<p>My open source work is mostly in the Hugging Face ecosystem — <a href="https://github.com/huggingface/trl">TRL</a> and <a href="https://github.com/huggingface/peft">PEFT</a> — along with curated datasets published on the Hub.</p>
+
+<p class="oss-legend">✅ merged &nbsp;·&nbsp; 🕒 in review</p>
+
+<div class="oss-section">
+  <h2>Featured: GOLD Trainer in TRL</h2>
+  <p>Extending TRL's <code>GOLDTrainer</code> (Cross-tokenizer On-and-Off-Policy Distillation):</p>
+  <ul class="oss-list">
+    <li>✅ <strong>End-to-end vision-language model support</strong> — merged and shipped in the v1.8.0 release. <a href="https://github.com/huggingface/trl/pull/5969">PR #5969</a></li>
+    <li>🕒 <strong>Complete tool-calling support</strong> — <a href="https://github.com/huggingface/trl/pull/6328">PR #6328</a></li>
+    <li>🕒 <strong>Iterable datasets support and a batch-caching dataloader optimization</strong> — <a href="https://github.com/huggingface/trl/pull/6438">PR #6438</a></li>
+  </ul>
+</div>
+
+<div class="oss-section">
+  <h2>Other contributions to TRL</h2>
+  <ul class="oss-list">
+    <li>✅ VLM generation fix under chunked-NLL loss — <a href="https://github.com/huggingface/trl/pull/6156">PR #6156</a></li>
+    <li>✅ GRPO tool-calling config fix — <a href="https://github.com/huggingface/trl/pull/6423">PR #6423</a></li>
+    <li>✅ GRPO × vLLM multimodal prompt-corruption bug: diagnosis and fix design — <a href="https://github.com/huggingface/trl/issues/6294">Issue #6294</a></li>
+    <li>✅ GRPO × vLLM server-mode multi-turn tool loop generation fix — <a href="https://github.com/huggingface/trl/pull/6673">PR #6673</a></li>
+    <li>✅ Cross-device crash fix in the shared model loader — <a href="https://github.com/huggingface/trl/pull/6295">PR #6295</a></li>
+  </ul>
+</div>
+
+<div class="oss-section">
+  <h2>PEFT</h2>
+  <ul class="oss-list">
+    <li>✅ Documentation improvements — <a href="https://github.com/huggingface/peft/pull/3406">PR #3406</a></li>
+  </ul>
+</div>
+
+<div class="oss-section">
+  <h2>Datasets on the Hugging Face Hub</h2>
+  <ul class="oss-list">
+    <li><strong><a href="https://huggingface.co/datasets/Strongich/MMK12-QWEN35-9B-VERIFIED">MMK12-QWEN35-9B-VERIFIED</a></strong> — a verified teacher-trace dataset for vision-language model distillation.</li>
+    <li><strong><a href="https://huggingface.co/datasets/Strongich/LLaVA-CoT-filtered">LLaVA-CoT-filtered</a></strong> — a cleaned 87k-example LLaVA-CoT variant with answer-leakage removal.</li>
+  </ul>
+</div>
