@@ -15,9 +15,9 @@ Previously, I was a Research Fellow (RAI for Ukraine program) at the [Center for
 
 Research
 ======
-My research interests lie at the intersection of multimodal AI and post-training. I'm especially interested in vision-language models and building robust, grounded capabilities around them. I also love exploring post-training recipes (from synthetic data generation to training loops) that push language models, especially small ones, to achieve strong performance on specific tasks despite their limited scale. I'm additionally interested in hybrid transformer architectures, particularly Mamba-Transformer combinations.
+My research interests lie at the intersection of multimodal AI and post-training. I'm especially interested in vision-language models and building robust, grounded capabilities around them. I also love exploring post-training recipes (from synthetic data generation to training loops) that push language models, especially small ones, to achieve strong performance on specific tasks despite their limited scale. Hybrid transformer architectures are another area I follow.
 
-Recently, I've been building this out in the open — extending Hugging Face TRL's [GOLD trainer](https://huggingface.co/docs/trl/gold_trainer) (cross-tokenizer on-and-off-policy distillation) with vision-language model and tool-calling support (see [OSS Contributions](/oss-contributions/)).
+I'm also interested in long-horizon agentic tasks and the RL environments used to train them, in the interpretability of agent decisions, and in the mathematical tools beneath both — game theory in particular.
 
 Education
 ======
