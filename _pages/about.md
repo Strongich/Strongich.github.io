@@ -9,7 +9,7 @@ redirect_from:
 
 <p class="about__email">igor [dot] vitenko13 [at] gmail [dot] com</p>
 
-I'm a Research Engineer at [Reface](https://reface.ai/), where I work on [BitePal](https://bitepal.app/) — an AI calorie tracker app. I build core features end to end, focusing on multimodal alignment, synthetic data generation, and optimal technical solutions to support business requests.
+I'm a Research Engineer at [Reface](https://reface.ai/), where I own the AI side of [BitePal](https://bitepal.app/) — an AI calorie tracker app — from feature architecture and research through implementation and maintenance, working directly with the product team.
 
 Previously, I was a Research Fellow (RAI for Ukraine program) at the [Center for Responsible AI](https://engineering.nyu.edu/research/centers/center-responsible-ai) at [New York University](https://www.nyu.edu/), working on RL policy reusability. Our paper from that work was accepted to the CIKM 2026 Short Paper Track. I also worked as a Machine Learning Engineer for one year, focused on service solutions for diverse businesses.
 
