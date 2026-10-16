@@ -13,7 +13,7 @@ author_profile: true
   .oss-section h2 { margin-bottom: 0.4em; }
 </style>
 
-<p>My open source work is mostly in the 🤗 Hugging Face ecosystem — <a href="https://github.com/huggingface/trl">TRL</a> and <a href="https://github.com/huggingface/peft">PEFT</a> — along with curated datasets published on the Hub.</p>
+<p>My open source work is mostly in the 🤗 Hugging Face ecosystem — <a href="https://github.com/huggingface/trl">TRL</a> and <a href="https://github.com/huggingface/peft">PEFT</a> — along with <a href="https://github.com/whitecircle/halo">Halo</a> and curated datasets published on the Hub.</p>
 
 <p class="oss-legend">✅ merged &nbsp;·&nbsp; 🕒 in review</p>
 
@@ -22,20 +22,20 @@ author_profile: true
   <p>Extending TRL's <a href="https://huggingface.co/docs/trl/gold_trainer"><code>GOLDTrainer</code></a> (Cross-tokenizer On-and-Off-Policy Distillation):</p>
   <ul class="oss-list">
     <li>✅ <strong>End-to-end vision-language model support</strong> — merged and shipped in the v1.8.0 release. <a href="https://github.com/huggingface/trl/pull/5969">PR #5969</a></li>
-    <li>🕒 <strong>Complete tool-calling support</strong> — <a href="https://github.com/huggingface/trl/pull/6328">PR #6328</a></li>
-    <li>🕒 <strong>Iterable datasets support and a batch-caching dataloader optimization</strong> — <a href="https://github.com/huggingface/trl/pull/6438">PR #6438</a></li>
+    <li>🕒 <strong>Tool-calling support for <code>GOLDTrainer</code></strong> — <a href="https://github.com/huggingface/trl/pull/6328">PR #6328</a></li>
+    <li>🕒 <strong>Iterable datasets support</strong> — <a href="https://github.com/huggingface/trl/pull/6438">PR #6438</a></li>
   </ul>
 </div>
 
 <div class="oss-section">
   <h2>Other contributions to TRL</h2>
   <ul class="oss-list">
-    <li>✅ VLM generation fix under chunked-NLL loss — <a href="https://github.com/huggingface/trl/pull/6156">PR #6156</a></li>
-    <li>✅ GRPO tool-calling config fix — <a href="https://github.com/huggingface/trl/pull/6423">PR #6423</a></li>
-    <li>🕒 GRPO × vLLM multimodal prompt-corruption fix: feed vLLM unexpanded image placeholders — <a href="https://github.com/huggingface/trl/pull/6718">PR #6718</a></li>
-    <li>🕒 GRPO × vLLM multimodal prompt-corruption fix: un-expand tool-returned images — <a href="https://github.com/huggingface/trl/pull/6719">PR #6719</a></li>
-    <li>🕒 GRPO × vLLM server-mode multi-turn tool loop generation fix — <a href="https://github.com/huggingface/trl/pull/6673">PR #6673</a></li>
-    <li>✅ Cross-device crash fix in the shared model loader — <a href="https://github.com/huggingface/trl/pull/6295">PR #6295</a></li>
+    <li>✅ Fix <code>chunked_nll</code> patch hiding VLM kwargs from <code>generate</code> — <a href="https://github.com/huggingface/trl/pull/6156">PR #6156</a></li>
+    <li>✅ GRPO: treat explicit <code>max_tool_calling_iterations=0</code> as zero, not unlimited — <a href="https://github.com/huggingface/trl/pull/6423">PR #6423</a></li>
+    <li>🕒 GRPO + RLOO: feed vLLM unexpanded image placeholders (vLLM VLM fix 1/2) — <a href="https://github.com/huggingface/trl/pull/6718">PR #6718</a></li>
+    <li>🕒 GRPO + RLOO: un-expand tool-returned images (vLLM VLM fix 2/2) — <a href="https://github.com/huggingface/trl/pull/6719">PR #6719</a></li>
+    <li>🕒 GRPO + RLOO + Distillation: fix multi-process tool loops in vLLM server mode — <a href="https://github.com/huggingface/trl/pull/6673">PR #6673</a></li>
+    <li>✅ Respect <code>use_cpu</code> in <code>create_model_from_path</code> device-map default — <a href="https://github.com/huggingface/trl/pull/6295">PR #6295</a></li>
   </ul>
 </div>
 
@@ -43,6 +43,14 @@ author_profile: true
   <h2>PEFT</h2>
   <ul class="oss-list">
     <li>✅ Documentation improvements — <a href="https://github.com/huggingface/peft/pull/3406">PR #3406</a></li>
+  </ul>
+</div>
+
+<div class="oss-section">
+  <h2>⚪ Halo</h2>
+  <p>Contributions to <a href="https://github.com/whitecircle/halo">Halo</a>, <a href="https://whitecircle.com">White Circle</a>'s open-source framework for training large language and multimodal models:</p>
+  <ul class="oss-list">
+    <li>🕒 Generalized JSD(β), reverse KL, and teacher top-k distillation losses — <a href="https://github.com/whitecircle/halo/pull/106">PR #106</a></li>
   </ul>
 </div>
 
