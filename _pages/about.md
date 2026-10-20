@@ -15,9 +15,11 @@ Previously, I was a Research Fellow (RAI for Ukraine program) at the [Center for
 
 Research
 ======
-My research interests lie at the intersection of multimodal AI and post-training. I'm especially interested in vision-language models and building robust, grounded capabilities around them. I also love exploring post-training recipes (from synthetic data generation to training loops) that push language models, especially small ones, to achieve strong performance on specific tasks despite their limited scale. Hybrid transformer architectures are another area I follow.
+My main focus is the intersection of multimodal AI and post-training. I'm especially interested in vision-language models and building robust, grounded capabilities around them, and in post-training recipes (from synthetic data generation to training loops) that push language models, especially small ones, to strong performance on specific tasks despite their limited scale.
 
-I'm also interested in long-horizon agentic tasks and the RL environments used to train them, in the interpretability of agent decisions, and in the mathematical tools beneath both — game theory in particular.
+More broadly, I'm interested in reinforcement learning, agents and long-horizon agentic tasks, the interpretability of model and agent decisions, and the mathematics underneath all of it — game theory in particular. Hybrid transformer architectures are another area I follow.
+
+Above all, I want AI to be genuinely useful to the living beings on this planet — especially in healthcare.
 
 Education
 ======
