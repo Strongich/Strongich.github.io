@@ -24,3 +24,6 @@ package-lock.json
 
 # Local CV, never publish
 cv/
+
+# Local LaTeX resume template
+jakes-resume-inspired-latex-template/
