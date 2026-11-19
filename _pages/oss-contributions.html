@@ -23,7 +23,6 @@ author_profile: true
   <ul class="oss-list">
     <li>✅ <strong>End-to-end vision-language model support</strong> — merged and shipped in the v1.8.0 release. <a href="https://github.com/huggingface/trl/pull/5969">PR #5969</a></li>
     <li>🕒 <strong>Tool-calling support for <code>GOLDTrainer</code></strong> — <a href="https://github.com/huggingface/trl/pull/6328">PR #6328</a></li>
-    <li>🕒 <strong>Iterable datasets support</strong> — <a href="https://github.com/huggingface/trl/pull/6438">PR #6438</a></li>
   </ul>
 </div>
 
@@ -35,6 +34,7 @@ author_profile: true
     <li>🕒 GRPO + RLOO: feed vLLM unexpanded image placeholders (vLLM VLM fix 1/2) — <a href="https://github.com/huggingface/trl/pull/6718">PR #6718</a></li>
     <li>🕒 GRPO + RLOO: un-expand tool-returned images (vLLM VLM fix 2/2) — <a href="https://github.com/huggingface/trl/pull/6719">PR #6719</a></li>
     <li>🕒 GRPO + RLOO + Distillation: fix multi-process tool loops in vLLM server mode — <a href="https://github.com/huggingface/trl/pull/6673">PR #6673</a></li>
+    <li>🕒 Group iterable datasets per process when Accelerate gives each process its own shards — <a href="https://github.com/huggingface/trl/pull/7697">PR #7697</a></li>
     <li>✅ Respect <code>use_cpu</code> in <code>create_model_from_path</code> device-map default — <a href="https://github.com/huggingface/trl/pull/6295">PR #6295</a></li>
   </ul>
 </div>
@@ -50,7 +50,8 @@ author_profile: true
   <h2>⚪ Halo</h2>
   <p>Contributions to <a href="https://github.com/whitecircle/halo">Halo</a>, <a href="https://whitecircle.com">White Circle</a>'s open-source framework for training large language and multimodal models:</p>
   <ul class="oss-list">
-    <li>🕒 Generalized JSD(β), reverse KL, and teacher top-k distillation losses — <a href="https://github.com/whitecircle/halo/pull/106">PR #106</a></li>
+    <li>✅ Generalized JSD(β), reverse KL, and teacher top-k distillation losses — <a href="https://github.com/whitecircle/halo/pull/106">PR #106</a></li>
+    <li>🕒 Chunked teacher distillation loss without full-vocabulary logits — <a href="https://github.com/whitecircle/halo/pull/189">PR #189</a></li>
   </ul>
 </div>
 
