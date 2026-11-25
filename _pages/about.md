@@ -19,7 +19,7 @@ My main focus is the intersection of multimodal AI and post-training. I'm especi
 
 More broadly, I'm interested in reinforcement learning, agents and long-horizon agentic tasks, the interpretability of model and agent decisions, and the mathematics underneath all of it — game theory in particular. Hybrid transformer architectures are another area I follow.
 
-Above all, I want AI to be genuinely useful to the living beings on this planet — especially in healthcare.
+Above all, I want AI to be genuinely useful to the living beings on this planet ☀️
 
 Education
 ======
